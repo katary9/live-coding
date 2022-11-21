@@ -8,4 +8,4 @@ export function setButton (buttonText) {
 
 }
 
-setButton('<button>button text</button>');
+// setButton('<button>button text</button>');

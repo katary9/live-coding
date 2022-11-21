@@ -1,9 +1,9 @@
-function getItemsList() {
+export function getItemsList() {
   const elementsList = document.querySelectorAll('.technology');
   console.dir(elementsList);
   return elementsList;
 }
- function getItemsArray() {
+export function getItemsArray() {
     const elements = document.querySelectorAll('.too');
     const elementsArray = Array.from(elements);
     console.dir(elementsArray);

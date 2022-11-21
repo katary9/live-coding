@@ -4,7 +4,7 @@ export function getItemsList() {
   return elementsList;
 }
 export function getItemsArray() {
-    const elements = document.querySelectorAll('.too');
+    const elements = document.querySelectorAll('.tool');
     const elementsArray = Array.from(elements);
     console.dir(elementsArray);
     return elementsArray;

@@ -4,4 +4,4 @@ export function setTitle(text) {
     return titleEl.textContent;
 }
 
-setTitle();
+setTitle('text');
